@@ -1,0 +1,18 @@
+[build-system]
+build-backend = 'flit_core.buildapi'
+requires = ['flit_core >=3.7.1,<4']
+
+[project]
+classifiers = [
+    'Programming Language :: Python :: 3',
+]
+dependencies = [
+]
+version = '1.0.0'
+description = 'test project'
+name = 'testing.test-project'
+readme = 'README.rst'
+requires-python = '>=3.10,<4'
+
+[tool.flit.module]
+name = 'testing.test_project'
